@@ -1,0 +1,191 @@
+﻿<div>
+
+    <button ng-click="printDiv('wrapper')" class="btn btn-info btn-icon btn-gap">
+        <i class="fa-plus"></i>
+        <span>Add New Variant</span>
+    </button>
+
+    <button class="btn btn-primary" ng-print print-element-id="wrapper"><i class="fa fa-print"></i> Print</button>
+
+</div>
+<div id="wrapper">
+
+    <div id="page-wrapper">
+
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-12">
+
+                <table class="table borderless">
+                    <thead>
+                        <tr>
+                            <th>
+                                <img src="assets/images/logoSID.png" />
+                            </th>
+                            <th class="center">DELIVERY NOTE ZENITH BANK NIGERIA.</th>
+                            <th class="leftie">16416</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Date: </strong> 8/23/2017</td>
+                            <td></td>
+                            <td>
+                                <strong>Delivery Note Number: </strong> SID/ZE/2017/8/23 <br />
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <strong>Delivery Address:</strong><br />
+                                <p><b>Address Line 1:</b> {{name}} ZENITH BANK NIGERIA</p>
+                                <p><b>Address Line 2:</b> HEAD CARD SERVICES UNIT</p>
+                                <p><b>State:</b> 	VICTORIA ISLND	LAGOS	</p>
+                                <p><b>Country:</b> NIGERIA</p>
+                                <p><b>Attention:</b> 	BEN  ANYAWU/ CSD UNIT			</p>
+                            </td>
+                            <td></td>
+                            <td>
+                                <strong>Billing Address:</strong><br />
+                                <p><b>Address Line 1:</b> ZENITH BANK NIGERIA</p>
+                                <p><b>Address Line 2:</b> HEAD CARD SERVICES UNIT</p>
+                                <p><b>State:</b> 	VICTORIA ISLND	LAGOS	</p>
+                                <p><b>Country:</b> NIGERIA</p>
+                                <p><b>Attention:</b> 	BEN  ANYAWU/ CSD UNIT			</p>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <table class="table table-bordered test">
+                    <thead>
+                        <tr class="table-active">
+                            <th>SN</th>
+                            <th>Pers</th>
+                            <th>Fulf</th>
+                            <th>Print</th>
+                            <th></th>
+                            <th></th>
+                            <th>Description</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><input checked="checked" class="check-box" disabled="disabled" type="checkbox" /></td>
+                            <td><input checked="checked" class="check-box" disabled="disabled" type="checkbox" /></td>
+                            <td> <input class="check-box" disabled="disabled" type="checkbox" /></td>
+                            <td></td>
+                            <td></td>
+                            <td>zib_zenith verve 506109 powercard_cps format hex_j264508_n221.dat.zip</td>
+                            <td>221</td>
+                        </tr>
+                        <tr class="table-active">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>Total</strong></td>
+                            <td>221</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="table table-bordered test">
+                    <thead>
+                        <tr class="table-active">
+                            <th>Job Name</th>
+                            <th>Quantity Received</th>
+                            <th>Previous Delivery</th>
+                            <th>Quantity Delivered</th>
+                            <th>Omitted</th>
+                            <th>Pending</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>zib_zenith verve 506109 powercard_cps format hex_j264508_n221.dat.zip</td>
+                            <td>221</td>
+                            <td>0</td>
+                            <td>221</td>
+                            <td></td>
+                            <td>0</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="table table-bordered test">
+
+                    <tbody>
+                        <tr>
+
+                            <td width="20%">
+                                <p>
+                                    <strong>DECLARATION</strong> <br />
+                                    We declare that the above description and quantity of goods are delivered in good condition
+                                </p>
+                            </td>
+                            <td width="80%">
+                                <table class=" table table-bordered testing">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2"><strong>Prepared by</strong> <br /> For: SecureID Limited</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 50%; height: 50px;"></td>
+                                            <td style="width: 50%; height: 50px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 50%;">Dispatch Officer</td>
+                                            <td style="width: 50%;">Dispatch Supervisor</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="table table-bordered test">
+
+                    <tbody>
+                        <tr>
+
+                            <td width="20%">
+                                <p>
+                                    <strong>DECLARATION</strong> <br />
+                                    We declare that the above description and quantity of goods are received in good condition
+                                </p>
+                            </td>
+                            <td width="80%">
+                                <table class=" table table-bordered testing">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2"><strong>Received by</strong> <br /> For: Customer</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 50%; height: 50px;"></td>
+                                            <td style="width: 50%; height: 50px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 50%;">Name &amp; Designation</td>
+                                            <td style="width: 50%;">Date &amp; Time</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-wrapper -->
+</div>

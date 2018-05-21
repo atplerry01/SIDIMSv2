@@ -1,0 +1,35 @@
+﻿>> Print Held and Waste Management (Inventory)
+>> Excess Split should not be allowed in Mailing delivery
+>> All WIP Older than one week
+
+>> Multiple Delivery note not working
+>> JobTracker Date for sorting
+>> JobTracker filter and sort by date;
+
+
+>> Creating Receipt for new client
+>> Remove Batch Tracker
+>> Print CE Analysis
+>> Print Delivery
+>> Card Engr should accept delievry from print
+>> Card QC Split Error closer look
+>> Issuance Log under Print
+>> DeliveryNote ID
+>> If Delivery is completed, Change WIP to completed for jobs and remove from the queue
+>> Card Setup Not display
+>> Partial Issuance Test flow
+>> Until the confirmation is done on the previus delivery, disable the next activity button
+>> in/dispatch/delivery-report: Partial:T/F
+
+>> MIS Detail Stock Report
+>> Refresh JobTracker and ServerJobList Page
+>> Soft Delete and Hard Delete of files
+>> Find CardIssuanceByTrackerId in the project
+>> Held Card Should be minus from QC Qty available
+>> Delivery Note details adjustment
+>> Auto Update of delivery Staff Name
+>> Held Page Fix
+>> Flags Process Correction
+
+>> Remove JobBtchTracker
+>> Remove Unwanted or Unused Model

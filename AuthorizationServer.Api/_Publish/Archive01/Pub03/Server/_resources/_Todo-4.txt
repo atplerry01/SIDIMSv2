@@ -1,0 +1,68 @@
+﻿ClientCardProduct
+JobBatchTracker
+
+>> 
+
+
+
+
+############################
+>> MIS and All WIP Older than one week
+
+>> Error:  Non Issued Card ffrom the IN shown in CE
+>> ce/first-card/268 > CardIssuanceLog
+>> Only Deliver the allowable Range (Quantity-Held)
+
+>> Disable Delivery until incoming is confirmed
+>> Non Perso Job Process
+>> DateTime Formatter
+>> Soft Delete and Hard Delete of files
+>> General Interface Clean Ups
+>> Admin && Supervisor Page
+>> Application Manual
+
+>> Remove Unwanted or Unused Model
+>> Locking QC Update to the Original Owner
+>> Refresh Page to all pages
+>> Job Tracker and ServerJob Refresh Issues (Sorting by last date treated)
+>> Deduction of HeldCard from the Delivery
+>> Partial Issuance Process
+
+>> Print => CE Card Delivery Confirmation
+>> Dirty Marker on CE/QC/MA Analysis
+>> Dont Deliver without Confirming receipt Pr => CE => QC => MA
+>> On Delivery Completetion Treat the Held Cards
+>> Table Footer fix
+################################
+
+
+
+################################
+>> Flags Process Correction
+>> Excess Split should not be allowed in Mailing delivery
+>> Mailing: Pending Delivery should be based on the quantity remain
+>> Creating Receipt for new client
+>> Conconrrent Delete of delivery items
+>> Card Engr should accept delievry from print
+>> Product Variant
+>> Print Waste Held Fields cleanups
+
+>> Print: Deleting Delivery, cant go back to he previous treated job
+>> Print: QC Exempted
+>> Indicator for completion of task
+>> Print/CE/QC/MA Footer calculator
+>> Request Log Order Number to string
+
+>> DeliveryNote ID
+>> Until the confirmation is done on the previus delivery, disable the next activity button
+>> in/dispatch/delivery-report: Partial:T/F
+
+
+
+ function getProductionUsers(forceRefresh) {
+            return datacontext.inventaccount.getProductionStaffs(forceRefresh).then(function (data) {
+                vm.users = data;
+                console.log(vm.users);
+                return vm.users;
+            });
+        }

@@ -1,0 +1,52 @@
+﻿############################
+>> Only Deliver the allowable Range (Quantity-Held)
+>> Disable Delivery until incoming is confirmed
+
+>> Deduction of HeldCard from the Delivery
+>> Partial Issuance Process
+>> Split Job Test
+
+>> MIS Entry Point
+>> Print => CE Card Delivery Confirmation
+>> Non Perso Job Process
+>> All WIP Older than one week
+>> Job Tracker and ServerJob Refresh Issues (Sorting by last date treated)
+>> DateTime Formatter
+>> Waste Fields Clean ups
+>> Refresh Page to all pages
+>> Locking QC Update to the Original Owner
+>> Dirty Marker on CE/QC/MA Analysis
+>> Big and small vault mechanism
+>> Remove Unwanted or Unused Model
+>> Soft Delete and Hard Delete of files
+>> General Interface Clean Ups
+>> Dont Deliver without Confirming receipt Pr => CE => QC => MA
+
+>> On Delivery Completetion Traet the Held Cards
+>> QA Process Status Icon
+################################
+
+ce/first-card/268 > CardIssuanceLog
+
+################################
+
+>> Deliver base on the Good Cards
+>> Flags Process Correction
+>> Excess Split should not be allowed in Mailing delivery
+>> Mailing: Pending Delivery should be based on the quantity remain
+>> Delivery Note details adjustment
+>> Creating Receipt for new client
+>> Conconrrent Delete of delivery items
+>> Card Engr should accept delievry from print
+>> Product Variant
+>> Print Waste Held Fields cleanups
+
+>> Print: Deleting Delivery, cant go back to he previous treated job
+>> Print: QC Exempted
+>> Indicator for completion of task
+>> Print/CE/QC/MA Footer calculator
+>> Request Log Order Number to string
+
+>> DeliveryNote ID
+>> Until the confirmation is done on the previus delivery, disable the next activity button
+>> in/dispatch/delivery-report: Partial:T/F
